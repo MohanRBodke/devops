@@ -17,7 +17,7 @@ pipeline {
         stage('Test') {
             steps {
                 dir('test/postman') {
-                    sh "${env.NEWMAN_PATH} run collection.json -e environment.json"
+                    sh "${env.NEWMAN_PATH} run collection.json"
                 }
             }
         }
