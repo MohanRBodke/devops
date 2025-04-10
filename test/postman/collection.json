@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:5050/hello",
+			"name": "http://localhost:3000/hello",
 			"event": [
 				{
 					"listen": "test",
@@ -26,12 +26,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5050/hello",
+					"raw": "http://localhost:3000/hello",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "5050",
+					"port": "3000",
 					"path": [
 						"hello"
 					]
